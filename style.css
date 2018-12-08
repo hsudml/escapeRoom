@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  margin: 15px;
+  font-family: "press start 2P", sans-serif;
+  background: #181818;
+  color: #00ff00;
+  text-transform: uppercase !important;
+}
+
+.col-md-6 {
+  padding-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.descrip {
+  min-height: 400px;
+}
+
+img.doctor {
+  border: 8px groove #00ff00;
+  padding-top: 10px;
+  text-align: right;
+}
+
+a {
+  color: rgba(46, 204, 113,1.0);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.progress {
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.progress-bar {
+  background-color: #00ff00;
+  height: 40px;
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg,#181818 25%,transparent 25%,transparent 50%,#181818 50%,#181818 75%,transparent 75%,transparent);
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  margin-top: 100px;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.italics {
+  font-style: italic;
+}
+
+.database-btn {
+  border-radius: 5px;
+  padding: 10px 0 0 0;
+  background: red;
+  color: #181818;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+form {
+  padding: 15px;
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  border-radius: 3px;
+  text-transform: uppercase !important;
+}
+
+.none {
+  display: none;
+}
+
+.locked {
+  /*background: url("https://cdn.glitch.com/3851ed0d-b0a7-4158-a5ff-fc4ff26209da%2FlockedImage(2).png?1507246903107");*/
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  height: 150px;
+  color: red;
+}
+
+.unlocked {
+  /*background: url("https://cdn.glitch.com/3851ed0d-b0a7-4158-a5ff-fc4ff26209da%2FlockedImage(3).png?1507246903097");*/
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  height: 150px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: transparent;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  font-family: "press start 2P", sans-serif;
+  font-size: 1em;
+  text-transform: uppercase !important;
+  width: 100%;
+}
+
+.locked input {
+  color: red;
+  border: 1px solid red;
+}
+
+input::placeholder {
+  color: #00ff00;
+  font-family: "press start 2P", sans-serif;
+  text-transform: uppercase !important;
+}
+
+label {
+    /* Other styling.. */
+    text-align: right;
+    clear: both;
+    margin-right:15px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset label, fieldset input {
+  display: inline-block;
+}
+
+button {
+  font-size: 1em;
+  border-radius: 3px;
+  background: transparent;
+  color: #00ff00;
+  border: 2px dotted #00ff00;
+  padding: 5px;
+  cursor: pointer;
+  font-family: "press start 2P", sans-serif;
+  text-transform: uppercase !important;
+  float: none;
+}
+
+button:hover {
+  background-color: #00ff00;
+  color: #000;
+}
+
+.red button {
+  color: red;
+  border: 2px dotted red;
+}
+
+.red button:hover {
+  background-color: red;
+  color: #000;
+}
+
+.unlocked button {
+  color: #00ff00;
+  border: 2px dotted #00ff00;
+}
+
+.unlocked button:hover {
+  background-color: #00ff00;
+  color: #000;
+}
+
+.unlocked {
+  background: #181818;
+  color: #00ff00;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.next, .prev {
+  margin-top: 1em;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #00ff00;
+  display: none;
+}
+
+footer > a {
+  color: #00ff00;
+}
+
+footer > a:hover {
+  color: #00ff00;
+  text-decoration: none;
+  border-bottom: 2px dotted #00ff00;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.outline {
+  border: 1px solid pink;
+}
+
+.min-height {
+  min-height: 400px;
+}
+
+.bump {
+  margin-top: 40px;
+}
+
+.card {
+  border: 1px solid red;
+  background: transparent;
+  box-shadow: 5px 5px red;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 0px;
+  
+}
+
+.card-header:first-child {
+  background-color: red;
+  color: #181818;
+  border-radius: 0px;
+}
+
+.card-body {
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.glitch-remix {
+  position: fixed; 
+  bottom: 5px;
+  left: 5px;
+  background: white;
+  height: 30px;
+  padding: 0;
+  border-radius: 8px;
+  line-height: 0.8;
+}
+
+.image {
+  text-align: center;
+}
+
+section img {
+  width: 60%;
+}
+
+img.lgImg {
+  width: 80%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.winner button {
+  background: #00ff00;
+  color: #181818;
+  border: 2px dotted #181818;
+}
+
+.winner button:hover {
+  background-color: #00ff00;
+  color: #181818;
+}
+
+.winner .red, .winner .locked, .winner input {
+  color: #181818;
+  border-color: #181818;
+}
+
+.winner {
+  background: #00ff00;
+  color: #181818;
+}
+
+.winner .database-btn {
+  background: #181818;
+  color: #00ff00;
+}
+
+.winner .unlocked {
+  background: #00ff00;
+  color: #181818;
+}
+
+@media (min-width: 1800px) { 
+  
+  * {
+    font-size: 30px;
+  }
+  
+  .container {
+    max-width: 1800px;
+  }
+}
