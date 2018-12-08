@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Rye');
+
+body {
+  background: #fff;
+  color: #000;
+  position: relative;
+  font-size: 20px;
+}
+
+.bump {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  padding: 10px;
+  color: yellow;
+  text-shadow: 5px 5px #333;
+  font-family: rye;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.header {
+  background: url(https://cdn.glitch.com/3851ed0d-b0a7-4158-a5ff-fc4ff26209da%2FBanana%20Slug%20Image.jpg?1508200691129);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.page {
+  margin-top: 600px;
+  z-index: 1000;
+  background: #fff;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 800px; 50px;
+  padding: 40px 50px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: yellow;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 5px 5px #333;
+  font-family: rye;
+}
